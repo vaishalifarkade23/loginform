@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("https://img.freepik.com/premium-photo/3d-rendering-black-dumbbells-floor-dark-concept-fitness-room-with-training-equipments-back_67155-14961.jpg?w=2000");
+	background-size: cover;
+	background-position: bottom;
+	font-family: sans-serif;
+	
+	
+}
+.login{
+	width:320px;
+	height: 500px;
+	background:black;
+	color: white;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	box-sizing: border-box;
+	transform:translate(-50%,-50%);
+	padding: 70px 30px;
+}
+
+h1{
+	color:red;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.login input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login input[type="submit"]
+{
+	border: medium;
+	outline: yellow;
+	height: 40px;
+	background: red;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #000;
+	
+}
+
